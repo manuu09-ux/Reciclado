@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Tema personalizado -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Fondo blanco para toda la app -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Colores de texto -->
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+        <!-- Color de los botones -->
+        <item name="colorPrimary">@color/celta_color</item>
+        <item name="colorPrimaryDark">@color/celta_color</item>
+        <item name="colorAccent">@color/celta_color</item>
+
+        <!-- Estilo para los botones -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+
+        <!-- Otros estilos, como el de los campos de texto -->
+        <item name="android:editTextStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
+    </style>
+
+    <!-- Estilo personalizado para los botones -->
+    <style name="CustomButtonStyle">
+        <item name="android:backgroundTint">@color/celta_color</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

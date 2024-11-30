@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#F3F4F6</color>
+    <color name="primary_text">#333333</color>
+    <color name="celta_color">#009E60</color>
+    <color name="contribute_button_color">#2196F3</color>
+    <color name="scan_button_color">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color> <!-- Fondo blanco -->
+    <color name="card_shadow">#33000000</color> <!-- Sombra gris oscuro -->
+    <color name="card_border">#FFDDDDDD</color> <!-- Borde gris claro -->
+    <color name="gray_light">#E0E0E0</color>
+</resources>

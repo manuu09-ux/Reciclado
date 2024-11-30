@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tamaños de márgenes -->
+    <dimen name="padding_screen">16dp</dimen>
+    <dimen name="padding_scroll">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="margin_element">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_medium">9dp</dimen>
+    <dimen name="margin_horizontal">12dp</dimen>
+
+    <!-- Tamaños de texto -->
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+</resources>

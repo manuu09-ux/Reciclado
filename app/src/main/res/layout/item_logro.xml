@@ -1,0 +1,26 @@
+<!-- item_logro.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Ícono que indica si el logro está completado -->
+    <ImageView
+        android:id="@+id/icono_logro"
+        android:src="@drawable/ic_logro_incompleto"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"/>
+
+    <!-- Texto del logro -->
+    <TextView
+        android:id="@+id/texto_logro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Logro ejemplo"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

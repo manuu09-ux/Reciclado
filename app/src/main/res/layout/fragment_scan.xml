@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ProgressBar para indicar carga inicial -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" /> <!-- Oculto por defecto -->
+
+    <!-- Botón para cargar productos iniciales -->
+    <Button
+        android:id="@+id/button_load_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargar Productos"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para escanear productos -->
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escanear Producto"
+        android:layout_below="@id/button_load_products"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para seleccionar imagen -->
+    <Button
+        android:id="@+id/button_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Imagen de la Galería"
+        android:layout_below="@id/button_scan"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ScrollView para permitir desplazamiento en caso de texto largo -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_gallery"
+        android:layout_marginTop="16dp">
+
+        <!-- TextView para mostrar pasos de reciclaje -->
+        <TextView
+            android:id="@+id/recycling_steps_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:visibility="visible"
+            android:text="Aquí se mostrará la información del reciclaje." />
+    </ScrollView>
+
+</RelativeLayout>

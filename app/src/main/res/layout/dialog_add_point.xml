@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del diálogo -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Nuevo Punto de Reciclaje"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para el nombre del punto de reciclaje -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Punto de Reciclaje"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Campo para la descripción del punto de reciclaje -->
+    <EditText
+        android:id="@+id/editTextInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp"
+        android:minLines="3"/>
+
+    <!-- Campo para la latitud -->
+    <EditText
+        android:id="@+id/pointLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Campo para la longitud -->
+    <EditText
+        android:id="@+id/pointLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    </LinearLayout>
+

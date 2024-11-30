@@ -1,0 +1,51 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <!-- Fragmento de inicio -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.reciclo.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+        <!-- Acción de navegación hacia el fragmento de escanear -->
+        <action
+            android:id="@+id/action_home_to_scan"
+            app:destination="@id/nav_scan" />
+    </fragment>
+
+    <!-- Fragmento de Escaneo -->
+    <fragment
+        android:id="@+id/nav_scan"
+        android:name="com.example.reciclo.ScanFragment"
+        android:label="Escanear Producto"
+        tools:layout="@layout/fragment_scan" />
+
+    <!-- Fragmento de Mapa -->
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.reciclo.MapFragment"
+        android:label="Mapa"/>
+
+    <!-- Fragmento de logros -->
+    <fragment
+        android:id="@+id/nav_logros"
+        android:name="com.example.reciclo.LogrosFragment"
+        android:label="Logros"
+        tools:layout="@layout/fragment_logros" />
+
+    <!-- Fragmento de perfil -->
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.reciclo.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Fragmento de configuración -->
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.reciclo.SettingsFragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

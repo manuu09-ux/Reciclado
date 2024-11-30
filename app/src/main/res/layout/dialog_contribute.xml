@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center">
+
+    <!-- Título del Diálogo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Comparte tu recomendación para un mundo más verde!"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic" />
+
+    <!-- Campo para que el usuario ingrese la recomendación -->
+    <EditText
+        android:id="@+id/edittext_recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu recomendación"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Botones de acción (Agregar y Cancelar) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Botón Cancelar -->
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Botón Agregar -->
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

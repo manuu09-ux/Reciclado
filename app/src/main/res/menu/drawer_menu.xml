@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Opción Perfil -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Perfil"
+        android:icon="@drawable/ic_profile" />
+
+
+    <!-- Opción Logros -->
+    <item
+        android:id="@+id/nav_logros"
+        android:title="Logros"
+        android:icon="@drawable/ic_trophy" />
+
+    <!-- Opción Configuración -->
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Configuración"
+        android:icon="@drawable/ic_settings" />
+
+    <!-- Opción Cerrar sesión -->
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/ic_logout" />
+</menu>
